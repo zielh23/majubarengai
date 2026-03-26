@@ -136,6 +136,6 @@ app.post('/chat', async (req, res) => {
 
 
 app.listen(def_port, () => {
-    console.log("this is server");
+    console.log("this server is running");
     console.log("open here : http://localhost:" + def_port);
 });
